@@ -1,0 +1,9 @@
+*{
+  font-size:13px;
+  color:white;
+  font-family:"Î¢ÈíÑÅºÚ";
+}
+
+QLabel{
+   background:transparent;
+}

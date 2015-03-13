@@ -1,0 +1,44 @@
+﻿生成启动时间为 2015/3/13 18:56:10。
+     1>项目“F:\Mywork\testQT\testQT\testQT.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing testqt.h...
+         Uic'ing testqt.ui...
+         Moc'ing mytrayicon.h...
+         Moc'ing clientframe.h...
+         Moc'ing ipsettingframe.h...
+         Moc'ing regisdialog.h...
+         Moc'ing COneLineIpEdit.h...
+         Rcc'ing testqt.qrc...
+         Uic'ing regisdialog.ui...
+         Uic'ing ipsettingframe.ui...
+         Uic'ing clientframe.ui...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_clientframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_clientframe.cpp, GeneratedFiles\Release\moc_clientframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_COneLineIpEdit.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_COneLineIpEdit.cpp, GeneratedFiles\Release\moc_COneLineIpEdit.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_ipsettingframe.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_ipsettingframe.cpp, GeneratedFiles\Release\moc_ipsettingframe.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mytrayicon.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_mytrayicon.cpp, GeneratedFiles\Release\moc_mytrayicon.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_regisdialog.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_regisdialog.cpp, GeneratedFiles\Release\moc_regisdialog.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_testqt.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_testqt.cpp, GeneratedFiles\Release\moc_testqt.cpp.
+       ClCompile:
+         E:\vs2013\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IF:\qt\5.4\msvc2013_64\include /I.\GeneratedFiles\Debug /IF:\qt\5.4\msvc2013_64\include\QtCore /IF:\qt\5.4\msvc2013_64\include\QtGui /IF:\qt\5.4\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D CONSOLE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt clientframe.cpp COneLineIpEdit.cpp GeneratedFiles\Debug\moc_clientframe.cpp GeneratedFiles\Debug\moc_COneLineIpEdit.cpp GeneratedFiles\Debug\moc_ipsettingframe.cpp GeneratedFiles\Debug\moc_mytrayicon.cpp GeneratedFiles\Debug\moc_regisdialog.cpp GeneratedFiles\Debug\moc_testqt.cpp ipsettingframe.cpp main.cpp mytrayicon.cpp regisdialog.cpp testqt.cpp
+         clientframe.cpp
+     1>clientframe.cpp(10): error C2039: “tableWidght”: 不是“Ui::ClientFrame”的成员
+                 F:\Mywork\testQT\testQT\GeneratedFiles\ui_clientframe.h(78) : 参见“Ui::ClientFrame”的声明
+     1>clientframe.cpp(10): error C2227: “->setHorizontalHeaderLabels”的左边必须指向类/结构/联合/泛型类型
+         COneLineIpEdit.cpp
+         moc_clientframe.cpp
+         moc_COneLineIpEdit.cpp
+         moc_ipsettingframe.cpp
+         moc_mytrayicon.cpp
+         moc_regisdialog.cpp
+         moc_testqt.cpp
+         ipsettingframe.cpp
+         main.cpp
+         mytrayicon.cpp
+         regisdialog.cpp
+         testqt.cpp
+         正在生成代码...
+     1>已完成生成项目“F:\Mywork\testQT\testQT\testQT.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:24.61
