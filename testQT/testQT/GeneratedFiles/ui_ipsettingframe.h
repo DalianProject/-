@@ -122,6 +122,8 @@ public:
 
 
         retranslateUi(IpSettingFrame);
+        QObject::connect(pushButton, SIGNAL(clicked()), IpSettingFrame, SLOT(slot1()));
+        QObject::connect(pushButton_2, SIGNAL(clicked()), IpSettingFrame, SLOT(close()));
 
         QMetaObject::connectSlotsByName(IpSettingFrame);
     } // setupUi

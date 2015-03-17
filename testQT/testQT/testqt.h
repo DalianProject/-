@@ -18,7 +18,7 @@ public:
 	~testQT();
 	IpSettingFrame m_ipsettingdialog;
 	MytrayIcon *mytrayicon;
-	ClientFrame *clientframe;
+	ClientFrame clientframe;
 public slots:
 //	void showRegisWindow();
 //	void SendLoginMessage();

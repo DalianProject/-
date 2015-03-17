@@ -57,6 +57,7 @@ public:
             testQTClass->setObjectName(QStringLiteral("testQTClass"));
         testQTClass->resize(548, 493);
         testQTClass->setMinimumSize(QSize(0, 493));
+        testQTClass->setAcceptDrops(true);
         testQTClass->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
         centralWidget = new QWidget(testQTClass);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));

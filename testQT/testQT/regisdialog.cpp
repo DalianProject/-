@@ -25,7 +25,7 @@ void RegisDialog::slot2(){
 	if (sPass1 != sPass2){
 	//	ui.rightPass->setPixmap(QPixmap(QString::fromUtf8(":/image/image(2).jpg")));
 		//ui.rightPass->setScaledContents(true);
-		ui.rightPass->setText("密码不一致");
+		ui.rightPass->setText(QString::fromLocal8Bit("密码不一致"));
 	}
 	else{
 		ui.rightPass->setPixmap(QPixmap(QString::fromUtf8(":/image/images(2).jpg")));

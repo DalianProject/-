@@ -24,9 +24,9 @@ void testQT::slot2(){
 	
 	//QMessageBox::about(this,ui.Usernameedit->text(),tr("asas"));
 	this->close();
-	clientframe = new ClientFrame();
-	clientframe->setWindowModality(Qt::WindowModal);
-	clientframe->show();
+//	clientframe = new ClientFrame();
+	clientframe.setWindowModality(Qt::WindowModal);
+	clientframe.show();
 }
 void testQT::slot3(){
 	m_ipsettingdialog.setModal(true);
@@ -63,7 +63,7 @@ void testQT::iconIsActived(QSystemTrayIcon::ActivationReason reason)
 		//Ë«»÷ÍÐÅÌÏÔÊ¾´°¿Ú
 	case QSystemTrayIcon::DoubleClick:
 	{
-										 setWindowModality(Qt::WindowModal);
+			setWindowModality(Qt::WindowModal);
 			show();
 			setWindowState(Qt::WindowNoState);
 			this->setFocus();
